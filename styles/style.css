@@ -16,6 +16,30 @@
   display: var(--record-status);
 }
 
+.rec__decoration:before {
+  content: "REC";
+  color: var(--accent-color);
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: var(--accent-color);
+  font-size: 18px;
+  padding-inline-end: 27px;
+}
+
+.rec__decoration::after {
+  content: "";
+  position: absolute;
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px rgba(255, 0, 112, 1);
+  background-color: var(--accent-color);
+  top: 8px;
+  right: 9px;
+}
+
+
 .header {
   position: relative;
   display: grid;
@@ -26,8 +50,8 @@
 .header::after {
   content: "";
   position: absolute;
-  width: 25.04px;
-  height: 25px;
+  inline-size: 25.04px;
+  block-size: 25px;
 }
 
 .header::before {
