@@ -8,14 +8,15 @@
     Или почему нам так сложно сконцентрироваться, особенно когда очень надо" />
     <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
-    <link rel="icon" href="./images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.svg">
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/mobile-icon.png">
     <link href="./fonts/fonts.css" rel="stylesheet">
+    <link href="./styles/globals.css" rel="stylesheet">
     <link href="./styles/variables.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
     <link href="./styles/dark.css" rel="stylesheet">
     <link href="./styles/light.css" rel="stylesheet">
-    <link href="./styles/globals.css" rel="stylesheet">
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -108,7 +109,8 @@
           </article>
           <article class="content__card"> 
             <h3 class="content__subtitle normal__text">Прогуляйтесь</h3>
-              <p class="content__text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент показал, что созерцание природы повышает концентрацию,
+              <p class="content__text">Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="link__text" target="_blank">показал</a>,
+                что созерцание природы повышает концентрацию,
                 в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом —
                 так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.</p>
           </article>
@@ -125,15 +127,15 @@
           </section>
           <section class="content__section">
             <h2 class="content__subtitle">А можно в картинках?</h2>
-            <img src="./images/sunset.png" alt="Закат" loading="lazy" class="sunset"> <!--В моем случае, наткнулся на редкий кейс, что в хроме не работает lazy load, не прогружает с ним изображения-->
-            <img src="./images/ice-cream.png" alt="Шарики мороженого" loading="lazy" class="ice-cream" >
-            <img src="./images/tape.png" alt="Аудиокассета" loading="lazy" class="tape" >
-            <img src="./images/books.png" alt="Стопка книг" loading="lazy" class="books" >
-            <img src="./images/street.png" alt="Улица" loading="lazy" class="street" >
+            <img src="./images/sunset.png" alt="Закат"  class="sunset"> <!--В моем случае, наткнулся на редкий кейс, что в хроме не работает lazy load, не прогружает с ним изображения-->
+            <img src="./images/ice-cream.png" alt="Шарики мороженого"  class="ice-cream" >
+            <img src="./images/tape.png" alt="Аудиокассета"  class="tape" >
+            <img src="./images/books.png" alt="Стопка книг"  class="books" >
+            <img src="./images/street.png" alt="Улица"  class="street" >
           </section>
     </main>
     <footer class="footer">
-      <h4 class="large__title">focus</h4>
+      <h2 class="large__title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

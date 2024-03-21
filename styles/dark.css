@@ -1,9 +1,11 @@
 .page.theme_dark {
   --main-color: rgba(0, 0, 40, 1);
   --text-color: rgba(241, 178, 206, 1);
+  --theme-sub-color: rgba(255, 0, 112, 1);
+  --title-and-sub-color: rgba(0, 0, 40, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --header-color: rgba(219, 0, 255, 1);
   --record-status: block;
-  --hover-color: rgba(241, 178, 206, 0.4);
+  --hover-color: rgba(255, 0, 112, 0.4);;
   --bckg-image: url(../images/cover-image-dark.png);
 }

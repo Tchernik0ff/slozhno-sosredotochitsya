@@ -1,6 +1,8 @@
 .page.theme_light {
   --main-color: rgba(255, 241, 247, 1);
   --text-color: rgba(53, 52, 48, 1);
+  --theme-sub-color: rgba(53, 52, 48, 1);
+  --title-and-sub-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --header-color: rgba(255, 194, 230, 1);
   --record-status: none;
@@ -12,6 +14,8 @@
   :root {
     --main-color: rgba(255, 241, 247, 1);
     --text-color: rgba(53, 52, 48, 1);
+    --theme-sub-color: rgba(53, 52, 48, 1);
+    --title-and-sub-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --header-color: rgba(255, 194, 230, 1);
     --record-status: none;
